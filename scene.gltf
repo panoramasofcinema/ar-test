@@ -1,0 +1,362 @@
+{
+  "accessors": [
+    {
+      "bufferView": 2,
+      "componentType": 5126,
+      "count": 65533,
+      "max": [
+        -1509.598876953125,
+        700.200439453125,
+        212.19859313964844
+      ],
+      "min": [
+        -2234.4814453125,
+        -108.42698669433594,
+        -219.572021484375
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 786396,
+      "componentType": 5126,
+      "count": 65533,
+      "max": [
+        0.99999678134918213,
+        0.99988448619842529,
+        1
+      ],
+      "min": [
+        -0.99999117851257324,
+        -0.99998879432678223,
+        -0.99983876943588257
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "componentType": 5126,
+      "count": 65533,
+      "max": [
+        0.99988710880279541,
+        0.99999761581420898,
+        1,
+        1
+      ],
+      "min": [
+        -0.9999995231628418,
+        -0.99999147653579712,
+        -0.99999946355819702,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "componentType": 5126,
+      "count": 65533,
+      "max": [
+        0.9998210072517395,
+        0.99099898338317871
+      ],
+      "min": [
+        0.00067699997453019023,
+        0.0020399999339133501
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "componentType": 5125,
+      "count": 311319,
+      "max": [
+        65532
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 1572792,
+      "componentType": 5126,
+      "count": 40372,
+      "max": [
+        -1519.004638671875,
+        687.87884521484375,
+        212.26252746582031
+      ],
+      "min": [
+        -2230.99853515625,
+        -108.32986450195312,
+        -219.1591796875
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 2057256,
+      "componentType": 5126,
+      "count": 40372,
+      "max": [
+        0.99996817111968994,
+        0.99995195865631104,
+        0.9999997615814209
+      ],
+      "min": [
+        -0.99999117851257324,
+        -0.99998879432678223,
+        -0.99478280544281006
+      ],
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 1048528,
+      "componentType": 5126,
+      "count": 40372,
+      "max": [
+        0.99938720464706421,
+        0.99950391054153442,
+        0.99999994039535522,
+        1
+      ],
+      "min": [
+        -0.9999995231628418,
+        -0.99983501434326172,
+        -0.99999707937240601,
+        -1
+      ],
+      "type": "VEC4"
+    },
+    {
+      "bufferView": 1,
+      "byteOffset": 524264,
+      "componentType": 5126,
+      "count": 40372,
+      "max": [
+        0.9998210072517395,
+        0.99841201305389404
+      ],
+      "min": [
+        0.0019460000330582261,
+        0.0052889999933540821
+      ],
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 1245276,
+      "componentType": 5125,
+      "count": 164724,
+      "max": [
+        40371
+      ],
+      "min": [
+        0
+      ],
+      "type": "SCALAR"
+    }
+  ],
+  "asset": {
+    "extras": {
+      "author": "Global Digital Heritage (https://sketchfab.com/GlobalDigitalHeritage)",
+      "license": "CC-BY-NC-4.0 (http://creativecommons.org/licenses/by-nc/4.0/)",
+      "source": "https://sketchfab.com/3d-models/moasic-room-16-villa-romana-del-casale-sicily-966fce11c440414681f60bfefe236b85",
+      "title": "Moasic Room 16. Villa Romana del Casale, Sicily"
+    },
+    "generator": "Sketchfab-8.57.0",
+    "version": "2.0"
+  },
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteLength": 1904172,
+      "byteOffset": 0,
+      "name": "floatBufferViews",
+      "target": 34963
+    },
+    {
+      "buffer": 0,
+      "byteLength": 847240,
+      "byteOffset": 1904172,
+      "byteStride": 8,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 2541720,
+      "byteOffset": 2751412,
+      "byteStride": 12,
+      "name": "floatBufferViews",
+      "target": 34962
+    },
+    {
+      "buffer": 0,
+      "byteLength": 1694480,
+      "byteOffset": 5293132,
+      "byteStride": 16,
+      "name": "floatBufferViews",
+      "target": 34962
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 6987612,
+      "uri": "scene.bin"
+    }
+  ],
+  "images": [
+    {
+      "uri": "textures/Default_OBJ_baseColor.jpeg"
+    },
+    {
+      "uri": "textures/Default_OBJ_normal.jpeg"
+    }
+  ],
+  "materials": [
+    {
+      "doubleSided": true,
+      "emissiveFactor": [
+        0,
+        0,
+        0
+      ],
+      "name": "Default_OBJ",
+      "normalTexture": {
+        "index": 1,
+        "scale": 1,
+        "texCoord": 0
+      },
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          1,
+          1,
+          1,
+          1
+        ],
+        "baseColorTexture": {
+          "index": 0,
+          "texCoord": 0
+        },
+        "metallicFactor": 0,
+        "roughnessFactor": 0.80635083268962915
+      }
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 1,
+            "POSITION": 0,
+            "TANGENT": 2,
+            "TEXCOORD_0": 3
+          },
+          "indices": 4,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    },
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "NORMAL": 6,
+            "POSITION": 5,
+            "TANGENT": 7,
+            "TEXCOORD_0": 8
+          },
+          "indices": 9,
+          "material": 0,
+          "mode": 4
+        }
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "children": [
+        1
+      ],
+      "name": "RootNode (gltf orientation matrix)",
+      "rotation": [
+        -0.70710678118654746,
+        -0,
+        -0,
+        0.70710678118654757
+      ]
+    },
+    {
+      "children": [
+        2
+      ],
+      "matrix": [
+        0.005346853690122888,
+        -0.0039656249217765449,
+        0,
+        0,
+        0.0039656249217765449,
+        0.005346853690122888,
+        0,
+        0,
+        0,
+        0,
+        0.0066569531336426735,
+        0,
+        -544.6837158203125,
+        -1056.963623046875,
+        0,
+        1
+      ],
+      "name": "RootNode (model correction matrix)"
+    },
+    {
+      "children": [
+        3,
+        4
+      ],
+      "name": "Ingresso privato palestra1.OBJ.cleaner.materialmerger.gles"
+    },
+    {
+      "mesh": 0,
+      "name": ""
+    },
+    {
+      "mesh": 1,
+      "name": ""
+    }
+  ],
+  "samplers": [
+    {
+      "magFilter": 9729,
+      "minFilter": 9987,
+      "wrapS": 10497,
+      "wrapT": 10497
+    }
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "name": "OSG_Scene",
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "textures": [
+    {
+      "sampler": 0,
+      "source": 0
+    },
+    {
+      "sampler": 0,
+      "source": 1
+    }
+  ]
+}
+
