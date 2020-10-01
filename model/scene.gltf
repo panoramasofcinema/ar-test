@@ -8,7 +8,8 @@
         {
             "name" : "Scene",
             "nodes" : [
-                0
+                0,
+                1
             ]
         }
     ],
@@ -21,6 +22,20 @@
                 1.62503182888031,
                 0
             ]
+        },
+        {
+            "mesh" : 1,
+            "name" : "6d62bc5d-0ccc-4e61-9096-2cddfee1fbd7",
+            "scale" : [
+                5.829862117767334,
+                5.829862117767334,
+                5.829862117767334
+            ],
+            "translation" : [
+                0,
+                0.4860169589519501,
+                0
+            ]
         }
     ],
     "materials" : [
@@ -28,15 +43,18 @@
             "doubleSided" : true,
             "name" : "Material",
             "pbrMetallicRoughness" : {
-                "baseColorFactor" : [
-                    0.800000011920929,
-                    0.800000011920929,
-                    0.800000011920929,
-                    1
-                ],
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 0
+                },
                 "metallicFactor" : 0,
                 "roughnessFactor" : 0.4000000059604645
             }
+        },
+        {
+            "doubleSided" : true,
+            "name" : "6d62bc5d-0ccc-4e61-9096-2cddfee1fbd7",
+            "pbrMetallicRoughness" : {}
         }
     ],
     "meshes" : [
@@ -53,6 +71,32 @@
                     "material" : 0
                 }
             ]
+        },
+        {
+            "name" : "6d62bc5d-0ccc-4e61-9096-2cddfee1fbd7",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 4,
+                        "NORMAL" : 5,
+                        "TEXCOORD_0" : 6
+                    },
+                    "indices" : 7,
+                    "material" : 1
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/jpeg",
+            "name" : "6d62bc5d-0ccc-4e61-9096-2cddfee1fbd7",
+            "uri" : "6d62bc5d-0ccc-4e61-9096-2cddfee1fbd7.jpg"
         }
     ],
     "accessors" : [
@@ -89,6 +133,40 @@
             "componentType" : 5123,
             "count" : 36,
             "type" : "SCALAR"
+        },
+        {
+            "bufferView" : 4,
+            "componentType" : 5126,
+            "count" : 4,
+            "max" : [
+                0.8269230723381042,
+                0,
+                0.5
+            ],
+            "min" : [
+                -0.8269230723381042,
+                0,
+                -0.5
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 5,
+            "componentType" : 5126,
+            "count" : 4,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 6,
+            "componentType" : 5126,
+            "count" : 4,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 7,
+            "componentType" : 5123,
+            "count" : 6,
+            "type" : "SCALAR"
         }
     ],
     "bufferViews" : [
@@ -111,11 +189,31 @@
             "buffer" : 0,
             "byteLength" : 72,
             "byteOffset" : 768
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 840
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 48,
+            "byteOffset" : 888
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 32,
+            "byteOffset" : 936
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 12,
+            "byteOffset" : 968
         }
     ],
     "buffers" : [
         {
-            "byteLength" : 840,
+            "byteLength" : 980,
             "uri" : "scene.bin"
         }
     ]
