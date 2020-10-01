@@ -53,7 +53,7 @@
         },
         {
             "doubleSided" : true,
-            "name" : "6d62bc5d-0ccc-4e61-9096-2cddfee1fbd7",
+            "name" : "image",
             "pbrMetallicRoughness" : {
                 "baseColorTexture" : {
                     "index" : 1,
