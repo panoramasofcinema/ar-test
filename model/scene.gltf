@@ -54,7 +54,14 @@
         {
             "doubleSided" : true,
             "name" : "6d62bc5d-0ccc-4e61-9096-2cddfee1fbd7",
-            "pbrMetallicRoughness" : {}
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 1,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
         }
     ],
     "meshes" : [
@@ -88,6 +95,9 @@
         }
     ],
     "textures" : [
+        {
+            "source" : 0
+        },
         {
             "source" : 0
         }
